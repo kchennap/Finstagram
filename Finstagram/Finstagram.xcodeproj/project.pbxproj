@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B9315C221FAB58F001D4FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9315C121FAB58F001D4FC1 /* AppDelegate.swift */; };
+		6B9315C421FAB58F001D4FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9315C321FAB58F001D4FC1 /* ViewController.swift */; };
+		6B9315C721FAB58F001D4FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B9315C521FAB58F001D4FC1 /* Main.storyboard */; };
+		6B9315C921FAB591001D4FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9315C821FAB591001D4FC1 /* Assets.xcassets */; };
+		6B9315CC21FAB591001D4FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B9315CA21FAB591001D4FC1 /* LaunchScreen.storyboard */; };
+		6B9315D721FAB591001D4FC1 /* FinstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9315D621FAB591001D4FC1 /* FinstagramTests.swift */; };
+		6B9315E221FAB592001D4FC1 /* FinstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9315E121FAB592001D4FC1 /* FinstagramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B9315D321FAB591001D4FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B9315B621FAB58F001D4FC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9315BD21FAB58F001D4FC1;
+			remoteInfo = Finstagram;
+		};
+		6B9315DE21FAB592001D4FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B9315B621FAB58F001D4FC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9315BD21FAB58F001D4FC1;
+			remoteInfo = Finstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B9315BE21FAB58F001D4FC1 /* Finstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9315C121FAB58F001D4FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B9315C321FAB58F001D4FC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B9315C621FAB58F001D4FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B9315C821FAB591001D4FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B9315CB21FAB591001D4FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B9315CD21FAB591001D4FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B9315D221FAB591001D4FC1 /* FinstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9315D621FAB591001D4FC1 /* FinstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinstagramTests.swift; sourceTree = "<group>"; };
+		6B9315D821FAB591001D4FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B9315DD21FAB592001D4FC1 /* FinstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9315E121FAB592001D4FC1 /* FinstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinstagramUITests.swift; sourceTree = "<group>"; };
+		6B9315E321FAB592001D4FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B9315BB21FAB58F001D4FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9315CF21FAB591001D4FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9315DA21FAB592001D4FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B9315B521FAB58F001D4FC1 = {
+			isa = PBXGroup;
+			children = (
+				6B9315C021FAB58F001D4FC1 /* Finstagram */,
+				6B9315D521FAB591001D4FC1 /* FinstagramTests */,
+				6B9315E021FAB592001D4FC1 /* FinstagramUITests */,
+				6B9315BF21FAB58F001D4FC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B9315BF21FAB58F001D4FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B9315BE21FAB58F001D4FC1 /* Finstagram.app */,
+				6B9315D221FAB591001D4FC1 /* FinstagramTests.xctest */,
+				6B9315DD21FAB592001D4FC1 /* FinstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B9315C021FAB58F001D4FC1 /* Finstagram */ = {
+			isa = PBXGroup;
+			children = (
+				6B9315C121FAB58F001D4FC1 /* AppDelegate.swift */,
+				6B9315C321FAB58F001D4FC1 /* ViewController.swift */,
+				6B9315C521FAB58F001D4FC1 /* Main.storyboard */,
+				6B9315C821FAB591001D4FC1 /* Assets.xcassets */,
+				6B9315CA21FAB591001D4FC1 /* LaunchScreen.storyboard */,
+				6B9315CD21FAB591001D4FC1 /* Info.plist */,
+			);
+			path = Finstagram;
+			sourceTree = "<group>";
+		};
+		6B9315D521FAB591001D4FC1 /* FinstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B9315D621FAB591001D4FC1 /* FinstagramTests.swift */,
+				6B9315D821FAB591001D4FC1 /* Info.plist */,
+			);
+			path = FinstagramTests;
+			sourceTree = "<group>";
+		};
+		6B9315E021FAB592001D4FC1 /* FinstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B9315E121FAB592001D4FC1 /* FinstagramUITests.swift */,
+				6B9315E321FAB592001D4FC1 /* Info.plist */,
+			);
+			path = FinstagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B9315BD21FAB58F001D4FC1 /* Finstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9315E621FAB592001D4FC1 /* Build configuration list for PBXNativeTarget "Finstagram" */;
+			buildPhases = (
+				6B9315BA21FAB58F001D4FC1 /* Sources */,
+				6B9315BB21FAB58F001D4FC1 /* Frameworks */,
+				6B9315BC21FAB58F001D4FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Finstagram;
+			productName = Finstagram;
+			productReference = 6B9315BE21FAB58F001D4FC1 /* Finstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B9315D121FAB591001D4FC1 /* FinstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9315E921FAB592001D4FC1 /* Build configuration list for PBXNativeTarget "FinstagramTests" */;
+			buildPhases = (
+				6B9315CE21FAB591001D4FC1 /* Sources */,
+				6B9315CF21FAB591001D4FC1 /* Frameworks */,
+				6B9315D021FAB591001D4FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B9315D421FAB591001D4FC1 /* PBXTargetDependency */,
+			);
+			name = FinstagramTests;
+			productName = FinstagramTests;
+			productReference = 6B9315D221FAB591001D4FC1 /* FinstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B9315DC21FAB592001D4FC1 /* FinstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9315EC21FAB592001D4FC1 /* Build configuration list for PBXNativeTarget "FinstagramUITests" */;
+			buildPhases = (
+				6B9315D921FAB592001D4FC1 /* Sources */,
+				6B9315DA21FAB592001D4FC1 /* Frameworks */,
+				6B9315DB21FAB592001D4FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B9315DF21FAB592001D4FC1 /* PBXTargetDependency */,
+			);
+			name = FinstagramUITests;
+			productName = FinstagramUITests;
+			productReference = 6B9315DD21FAB592001D4FC1 /* FinstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B9315B621FAB58F001D4FC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Krishna Chenna";
+				TargetAttributes = {
+					6B9315BD21FAB58F001D4FC1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					6B9315D121FAB591001D4FC1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6B9315BD21FAB58F001D4FC1;
+					};
+					6B9315DC21FAB592001D4FC1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6B9315BD21FAB58F001D4FC1;
+					};
+				};
+			};
+			buildConfigurationList = 6B9315B921FAB58F001D4FC1 /* Build configuration list for PBXProject "Finstagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B9315B521FAB58F001D4FC1;
+			productRefGroup = 6B9315BF21FAB58F001D4FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B9315BD21FAB58F001D4FC1 /* Finstagram */,
+				6B9315D121FAB591001D4FC1 /* FinstagramTests */,
+				6B9315DC21FAB592001D4FC1 /* FinstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B9315BC21FAB58F001D4FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9315CC21FAB591001D4FC1 /* LaunchScreen.storyboard in Resources */,
+				6B9315C921FAB591001D4FC1 /* Assets.xcassets in Resources */,
+				6B9315C721FAB58F001D4FC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9315D021FAB591001D4FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9315DB21FAB592001D4FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B9315BA21FAB58F001D4FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9315C421FAB58F001D4FC1 /* ViewController.swift in Sources */,
+				6B9315C221FAB58F001D4FC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9315CE21FAB591001D4FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9315D721FAB591001D4FC1 /* FinstagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9315D921FAB592001D4FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9315E221FAB592001D4FC1 /* FinstagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B9315D421FAB591001D4FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B9315BD21FAB58F001D4FC1 /* Finstagram */;
+			targetProxy = 6B9315D321FAB591001D4FC1 /* PBXContainerItemProxy */;
+		};
+		6B9315DF21FAB592001D4FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B9315BD21FAB58F001D4FC1 /* Finstagram */;
+			targetProxy = 6B9315DE21FAB592001D4FC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B9315C521FAB58F001D4FC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B9315C621FAB58F001D4FC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B9315CA21FAB591001D4FC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B9315CB21FAB591001D4FC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B9315E421FAB592001D4FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B9315E521FAB592001D4FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B9315E721FAB592001D4FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Finstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Finstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B9315E821FAB592001D4FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Finstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Finstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B9315EA21FAB592001D4FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FinstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finstagram.app/Finstagram";
+			};
+			name = Debug;
+		};
+		6B9315EB21FAB592001D4FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FinstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finstagram.app/Finstagram";
+			};
+			name = Release;
+		};
+		6B9315ED21FAB592001D4FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FinstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Finstagram;
+			};
+			name = Debug;
+		};
+		6B9315EE21FAB592001D4FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FinstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Finstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B9315B921FAB58F001D4FC1 /* Build configuration list for PBXProject "Finstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9315E421FAB592001D4FC1 /* Debug */,
+				6B9315E521FAB592001D4FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9315E621FAB592001D4FC1 /* Build configuration list for PBXNativeTarget "Finstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9315E721FAB592001D4FC1 /* Debug */,
+				6B9315E821FAB592001D4FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9315E921FAB592001D4FC1 /* Build configuration list for PBXNativeTarget "FinstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9315EA21FAB592001D4FC1 /* Debug */,
+				6B9315EB21FAB592001D4FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9315EC21FAB592001D4FC1 /* Build configuration list for PBXNativeTarget "FinstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9315ED21FAB592001D4FC1 /* Debug */,
+				6B9315EE21FAB592001D4FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B9315B621FAB58F001D4FC1 /* Project object */;
+}
