@@ -7,6 +7,7 @@ target 'Finstagram' do
 
   # Pods for Finstagram
   pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
   target 'FinstagramTests' do
     inherit! :search_paths
