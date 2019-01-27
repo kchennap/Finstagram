@@ -111,8 +111,14 @@
                                 <rect key="frame" x="56.5" y="250" width="262.5" height="33.5"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMz-it-WBm">
+                                <rect key="frame" x="75" y="500.5" width="225" height="66.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.1025631726" blue="0.028208896399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -120,10 +126,12 @@
                             <constraint firstItem="jlW-6p-yo5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.25" id="3Em-dU-BcQ"/>
                             <constraint firstItem="Sr4-ba-doS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="47u-44-rvM"/>
                             <constraint firstItem="pJp-cN-XKv" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="8cw-bu-RFH"/>
+                            <constraint firstItem="NMz-it-WBm" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.6" id="9No-m0-i1t"/>
                             <constraint firstItem="qH4-Zt-Wih" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cn8-Eu-Sff"/>
                             <constraint firstItem="qH4-Zt-Wih" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="I9q-KJ-cbg"/>
                             <constraint firstItem="Sr4-ba-doS" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="Nfk-ZI-K2c"/>
                             <constraint firstItem="Sr4-ba-doS" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="OD0-KL-4G4"/>
+                            <constraint firstItem="NMz-it-WBm" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="Ofx-5G-7bh"/>
                             <constraint firstItem="pJp-cN-XKv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PmX-M9-Bx0"/>
                             <constraint firstItem="TE0-1b-vMr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Q1G-c8-KZN"/>
                             <constraint firstItem="jlW-6p-yo5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qz4-Q8-VDb"/>
@@ -132,6 +140,8 @@
                             <constraint firstItem="1ZE-1X-TgY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.15" id="T6K-CW-Ykp"/>
                             <constraint firstItem="lES-ys-aAj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.8" id="Y7j-oq-y66"/>
                             <constraint firstItem="TE0-1b-vMr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.5" id="YR7-qY-J3O"/>
+                            <constraint firstItem="NMz-it-WBm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.6" id="cp5-ox-Gvh"/>
+                            <constraint firstItem="NMz-it-WBm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fk2-vC-t6s"/>
                             <constraint firstItem="0Jw-2U-FOs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.4" id="kfv-YH-XkX"/>
                             <constraint firstItem="Sr4-ba-doS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.8" id="mlY-UT-V09"/>
                             <constraint firstItem="1ZE-1X-TgY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pln-oM-NzD"/>
@@ -142,6 +152,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="6Z6-M4-mow"/>
                     <connections>
+                        <outlet property="errorLbl" destination="NMz-it-WBm" id="X7p-yG-Whd"/>
                         <outlet property="logInButton" destination="1ZE-1X-TgY" id="AAK-9J-zr6"/>
                         <outlet property="password" destination="Sr4-ba-doS" id="cka-87-pHm"/>
                         <outlet property="username" destination="qH4-Zt-Wih" id="58l-nO-qYW"/>
@@ -180,6 +191,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iXa-8J-JWE"/>
                     </view>
+                    <connections>
+                        <outlet property="nameLbl" destination="Ga0-3G-rDV" id="QKe-90-a9H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i9L-u9-ECQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -193,7 +207,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0gQ-OV-dAa">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0gQ-OV-dAa">
                                 <rect key="frame" x="56.5" y="217" width="262.5" height="33"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
@@ -209,7 +223,7 @@
                                 <rect key="frame" x="56.5" y="350" width="262.5" height="33.5"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create an account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDu-ps-YJV">
                                 <rect key="frame" x="77.5" y="98" width="220" height="37"/>
@@ -221,6 +235,9 @@
                                 <rect key="frame" x="144" y="512.5" width="87" height="42"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="26"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="registerAccount:" destination="yAS-as-JHG" eventType="touchUpInside" id="cpq-ev-7v8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -244,6 +261,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="twe-vc-BP9"/>
                     </view>
+                    <connections>
+                        <outlet property="fullName" destination="0gQ-OV-dAa" id="MiV-bv-LuI"/>
+                        <outlet property="password" destination="haL-kk-cj6" id="Zjf-4F-arA"/>
+                        <outlet property="username" destination="EDn-PY-GKJ" id="5vQ-V4-4uQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fJK-Pt-pAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

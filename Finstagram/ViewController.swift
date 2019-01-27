@@ -15,11 +15,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var logInButton: UIButton!
     
+    var firebaseReference: DatabaseReference!
+    
+    @IBOutlet weak var errorLbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         logInButton.layer.cornerRadius = 4
-        let ref = Database.database().reference()
-        ref.child("Users/name").setValue("Beyonce")
+        firebaseReference = Database.database().reference()
+        
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -45,9 +49,32 @@ class ViewController: UIViewController {
     }
     
     @IBAction func loginBtn(_ sender: Any) {
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "name") as! NameViewController
-        
-        self.navigationController?.pushViewController(vc, animated: true)
+        let users_username = username.text ?? ""
+        let users_pswd = password.text ?? ""
+        firebaseReference.child("Users").child(users_username).observeSingleEvent(of: .value, with: { (snapshot) in
+            // Get user value
+            let value = snapshot.value as? NSDictionary
+            if((value) != nil){
+                let password = value?["Password"] as? String ?? ""
+                let full_name = value?["Fullname"] as? String ?? ""
+                if(users_pswd == password){
+                    self.errorLbl.text = "Succesful Login"
+                    self.errorLbl.textColor = UIColor.green
+                    let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "name") as! NameViewController
+                    vc.name = full_name
+                    self.navigationController?.pushViewController(vc, animated: true)
+                } else {
+                    self.errorLbl.text = "Please enter valid Password"
+                    self.errorLbl.textColor = UIColor.red
+                }
+            } else {
+                self.errorLbl.text = "Please enter valid Username"
+                self.errorLbl.textColor = UIColor.red
+            }
+                // ...
+        }) { (error) in
+                print(error.localizedDescription)
+        }
     }
     
     @IBAction func createAccount(_ sender: Any) {
